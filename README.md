@@ -3,11 +3,11 @@
 ## Step 1. 작업 디렉토리 만들기
 ### 폴더 생성 
 ```bash
-$ mkdir <folder name>
+$ mkdir likelion7
 ``` 
 ### 폴더 이동
 ```bash
-$ cd <folder name>
+$ cd likelion7
 ``` 
 ### visual studio code로 열기 
 ```bash
@@ -36,18 +36,18 @@ $ pip install django
 ## Step 3. 프로젝트 생성
 ### 프로젝트 생성하기
 ```bash
-$ django-admin startproject <project name> 
+$ django-admin startproject project_name
 ``` 
 ---------
 ## Step 4. app 만들기
 ### app 만들기
 ```bash
-$ python manage.py startapp <app name>
+$ python manage.py startapp myapp
 ``` 
 ### settings.py에 app 선언
 ```python
 INSTALLED_APPS=[
-'<appname>.apps.<Appname>Config',
+'myapp.apps.MyappConfig',
 ]
 ``` 
 ### 서버 켜기
