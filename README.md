@@ -16,11 +16,13 @@ $ code .
 -------
 ## Step 2. 가상 환경 생성 & 장고 설치
 ### 가상 환경 생성
+*프로젝트나 앱이 아닌 폴더 안에 만들기*
 ```bash
 $ python -m venv myvenv
 ``` 
 ### 가상 환경 실행 
 *Django 개발 시 가상 환경 반드시 켜기*
+*프로젝트나 앱이 아닌 폴더 안에서 켜기*
 ```bash
 $ source myvenv/Scripts/activate
 ``` 
